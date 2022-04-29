@@ -1,0 +1,140 @@
+* {
+    border: 0px solid blue;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+body {
+    box-sizing: content-box;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(52, 120, 20);
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+header {
+    position: relative;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(10, 210, 110);
+}
+
+li {
+    height: 20%;
+    list-style: none;
+}
+
+svg {
+    height: 100%;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    align-self: center ;
+}
+
+h4 {
+    align-self: center;
+    color: black;
+}
+
+
+
+.logo__image {
+    position: absolute;
+    height: 80%;
+    border-radius: 40%;
+}
+
+.hard {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hard__card {
+    border: solid 3px rgb(21, 59, 3);
+    background-color: rgb(196, 238, 198);
+    width: 200px;
+    height: 280px;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    margin: 0px 10px 10px 10px;
+}
+
+.hard_card_img {
+    height: 40%;
+}
+
+.social {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+@media screen and (min-width: 650px) {
+    .hard__card {
+        border: solid 3px rgb(21, 59, 3);
+        background-color: rgb(196, 238, 198);
+        margin-bottom: 5%;
+        width: 300px;
+        height: 420px;
+        display: flex;
+        justify-content:left;
+        flex-direction: column;
+        margin: 0px 10px 10px 10px;
+    }
+
+    h3 {
+        font-size: 80px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .social {
+        height: 100%;
+        width: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    li {
+        height: 50%;
+        list-style: none;
+    }
+}
